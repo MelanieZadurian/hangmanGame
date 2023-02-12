@@ -1,0 +1,155 @@
+/* This is my stylesheet for my hangman game */
+
+/* Formatting for the body */
+body {
+  font-family: 'Courier';
+}
+
+/* Formatting for the header-container*/
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Formatting for the main header */
+#mainHeader {
+  font-size: 3rem;
+}
+
+/* Formatting for the h4*/
+h4 {
+  margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-size: 3rem;
+}
+
+/* Formatting for the rules list*/
+.rules-list {
+  padding: 0;
+  margin: 0;
+}
+
+/* Formatting for the items in the rules list*/
+.rules-list li {
+  font-size: 1.5rem;
+}
+
+/* Formatting for paragraphs */
+p {
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Formatting for main container*/
+.main-container {
+  align-items: center;
+  min-width: 400px;
+  max-width: 45rem;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 20px solid rgb(38, 182, 226);
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #c6d6ff;
+}
+
+/* Formatting for button (and various classes that relate to buttons)*/
+.btn {
+  background: rgb(38, 182, 226);
+  color: #fff;
+  border: white 2px solid;
+  padding: 8px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  font-weight: bolder;
+}
+
+.icon button:hover {
+  font-size: 18px;
+}
+
+.icon {
+  padding: 2px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: rgb(136, 160, 180);
+  cursor: pointer;
+
+}
+
+.icon button {
+  font-size: 20px;
+  background-color: rgb(248, 255, 56);
+  color: black;
+  width: 1.9rem;
+  border: 1px solid black;
+  cursor: pointer;
+
+}
+
+.button-green {
+  background-color: rgb(0, 125, 0) !important;
+}
+
+.button-red {
+  background-color: rgb(198, 0, 0) !important;
+}
+
+.button-grey {
+  background-color: rgb(173, 213, 255) !important;
+}
+
+/* Formatting for results*/
+.results-container {
+  display: flex;
+  flex-flow: row;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(38, 182, 226);
+  border: white 2px solid;
+  color: white;
+  font-weight: bolder;
+}
+
+.resutls-score {
+  width: 25%;
+}
+
+/* Formatting for the hangman image parts*/
+.state-container {
+  display: flex;
+  flex-flow: row;
+  max-width: 50rem;
+  align-items: center;
+}
+
+.state-img {
+  width: 15rem;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.state-dash {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 3rem;
+}
+
+/* Formatting for the letters stuff*/
+.alpha-container {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 30rem;
+  margin: 1rem 1rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
